@@ -6,7 +6,7 @@ private:
     int nim;
     string nama;
 public:
-    void inpitdata() {
+    void inputdata() {
         cout << "Masukkan NIM : ";
         cin >> nim;
         cout << "Masukkan Nama : ";
@@ -46,4 +46,7 @@ int main()
 {
     Mahasiswa mhs;
     MataKuliah mhs;
+
+    mhs.inputdata();
+    mhs.tampildata();
 }

@@ -28,6 +28,10 @@ public:
     void TampilMK();
 };
 
+void MataKuliah::InputMK() {
+
+}
+
 int main()
 {
     Mahasiswa mhs;

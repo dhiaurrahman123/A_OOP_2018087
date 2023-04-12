@@ -37,7 +37,11 @@ void MataKuliah::InputMK() {
     cin >> sks;
 
 }
-
+void MataKuliah::TampilMK() {
+    cout << "\nKode : " << kode << endl;
+    cout << "Nama Mata Kuliah : " << namamk << endl;
+    cout << "Jumlah SKS : " << sks << endl;
+}
 int main()
 {
     Mahasiswa mhs;

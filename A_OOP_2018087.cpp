@@ -45,8 +45,12 @@ void MataKuliah::TampilMK() {
 int main()
 {
     Mahasiswa mhs;
-    MataKuliah mhs;
+    MataKuliah mk;
 
     mhs.inputdata();
     mhs.tampildata();
+
+    mk.InputMK();
+    mk.TampilMK();
+    
 }

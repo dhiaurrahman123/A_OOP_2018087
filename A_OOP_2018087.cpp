@@ -19,7 +19,13 @@ public:
 };
 
 class MataKuliah {
-
+private:
+    string kode;
+    string namamk;
+    int sks;
+public:
+    void InputMK();
+    void TampilMK();
 };
 
 int main()
